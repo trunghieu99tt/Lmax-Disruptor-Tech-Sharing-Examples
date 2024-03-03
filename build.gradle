@@ -25,6 +25,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.openjdk.jmh:jmh-core:1.37'
+    implementation 'com.lmax:disruptor:4.0.0'
+
     annotationProcessor 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
 
     compileOnly 'org.projectlombok:lombok'
